@@ -42,8 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         display(quantity);
 
-        int price = 10 * quantity;
-        displayPrice(price);
+
     }
     public void decrement(View view) {
         quantity = quantity - 1;
