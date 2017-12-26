@@ -16,7 +16,7 @@
         android:textAllCaps="true"
         android:textSize="@dimen/textSize" />
 <LinearLayout
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
@@ -25,8 +25,8 @@
         android:layout_height="48dp"
         android:layout_marginBottom="@dimen/bottom_left_margin"
         android:layout_marginLeft="@dimen/bottom_left_margin"
-        android:onClick="increment"
-        android:text="+"
+        android:onClick="decrement"
+        android:text="-"
         android:textSize="@dimen/textSize" />
 
 
@@ -44,8 +44,8 @@
         android:layout_height="48dp"
         android:layout_marginBottom="@dimen/bottom_left_margin"
         android:layout_marginLeft="8dp"
-        android:onClick="decrement"
-        android:text="-"
+        android:onClick="increment"
+        android:text="+"
         android:textSize="@dimen/textSize" />
 </LinearLayout>
     <TextView
